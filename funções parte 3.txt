@@ -1,0 +1,98 @@
+<html>
+    <head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+         //$nome="vinicius";
+         echo strlen("vinicius");
+         //echo $total;
+        ?>
+      </p>
+    </body>
+</html>
+
+
+//Vamos fazer uma pequena revisão. Na linha 8, use a função strlen() para exibir, usando echo, o número de caracteres do seu nome.//
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+        // Escreva sua função abaixo!
+        
+        function displayname() {
+            echo "vinicius";
+        }
+        
+        
+        ?>
+      </p>
+    </body>
+</html>
+
+Na linha 10, escreva uma função chamada displayName, que não recebe parâmetros e exibe, usando echo, uma string que contém seu nome. Verifique as Dicas se precisar de ajuda!
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+        // Escreva sua função abaixo!
+        
+        function displayname() {
+            echo "vinicius";
+        }
+        displayname();
+        
+        ?>
+      </p>
+    </body>
+</html>
+
+Na linha após sua função, tente chamá-la. Você deve ver seu nome mostrado no painel de resultados!
+------------------------------------------------------------------------------------------------------------------------------------------
+
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+        $name="vinicius";
+        function greetings($name) {
+            echo "Greetings ".$name."!";
+        }
+        greetings($name);
+        ?>
+      </p>
+    </body>
+</html>
+-------------------------------------------------------------------------------------------------------
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+        $name="vinicius";
+        $age= 36;
+      function aboutme($name,$age) {
+          echo "Olá! Meu nome é ".$name." e eu tenho ".$age." anos.";
+      }
+      aboutme($name,$age);
+        ?>
+      </p>
+    </body>
+</html>
